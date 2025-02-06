@@ -1,4 +1,4 @@
-#conditional operators
+#conditional statement
 #ex 1
 age = int(input("Enter your age : "))
 if(age>=80):
