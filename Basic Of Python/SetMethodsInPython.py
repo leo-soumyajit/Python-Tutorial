@@ -65,7 +65,7 @@ del fullSet #this keyword delete the entire set
 fullSet = {"a","b","c","d"}
 fullSet.clear() #clears entire sets value and gives us empty set
 print(fullSet)
-
+print(type(fullSet))
 
 
 
