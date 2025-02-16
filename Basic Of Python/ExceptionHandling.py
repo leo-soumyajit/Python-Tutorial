@@ -31,3 +31,28 @@ try:
     print(div(10, 0))
 except Exception as e:
     print(e)
+
+#Finally clause
+"""
+    finally is init after try and except block
+    it executes every time whatever error is occurred in try except block or not
+"""
+def func():
+    try:
+        ls = [1,2,3,4]
+        i = int(input("Enter index to print value : "))
+        print(ls[i])
+        return 1
+    except ValueError:
+        print("Some Value error occurred..")
+        return 0
+    except IndexError:
+        print("Some Index error occurred..")
+        return 0
+    finally:
+        print("No matter what im always executed")
+        #this finally block will always execute whether func() returned or not
+
+x = func()
+print(x)
+
