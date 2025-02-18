@@ -31,4 +31,21 @@ elif(num==0):
 else:
     print("number is negative")
 
+#Short Hand if-else
+a = 100
+b = 1001
+print(a) if a>b else print("=")if a==b else print(b)
+print("A") if a>b else print("No B")
+
+c = 9 if a>b else 0
+print(c)
+
+
+
+
+
+
+
+
+
 
