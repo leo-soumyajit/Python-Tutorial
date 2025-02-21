@@ -4,13 +4,18 @@ def calculateGmean(a,b):
 
 print(calculateGmean(9,8))
 
+
+
 def greaterNumber(a,b):
     if a>b:
         print(a,"is Greater..")
     else:
         print(b, "is Greater..")
 
-greaterNumber(10,11)
+print(__name__)
+if __name__ == "__main__":
+    greaterNumber(10, 11)
+
 
 def isLesser(a,b):
     pass    # says to python the impl of this function will do later

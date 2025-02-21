@@ -37,6 +37,7 @@ print(m(10.65654564646))
 print(dir(math))
 
 #we can import our own modules
-from functionsInPython import greaterNumber as gm
+from functionsInPython import  greaterNumber as gm
 gm(10,11)
 
+print(__name__) #main
